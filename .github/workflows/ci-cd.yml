@@ -27,8 +27,7 @@ jobs:
     - name: Install better-docs
       run: npm i better-docs
 
-    - name: Configure file
-      run: touch jsdoc.conf.json
+
 
     - name: Generate JSDoc
       run: npm run docs

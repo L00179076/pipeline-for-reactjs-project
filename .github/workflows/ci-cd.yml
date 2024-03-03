@@ -22,12 +22,10 @@ jobs:
       run: npm install
 
     - name: Install JSDoc
-      run: npm i jsdoc
+      run: npm i -g jsdoc
 
-    - name: Install better-docs
-      run: npm i better-docs
-
-
+    - name: Install docdash Theam
+      run: npm i docdash
 
     - name: Generate JSDoc
       run: npm run docs

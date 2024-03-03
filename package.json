@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "better-docs": "^2.7.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
@@ -16,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "docs": "jsdoc -r src -d documentation"
+    "docs": "jsdoc -c jsdoc.conf.json"
   },
   "eslintConfig": {
     "extends": [

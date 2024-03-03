@@ -22,13 +22,18 @@ jobs:
       run: npm install
 
     - name: Install JSDoc
-      run: npm install -g jsdoc
+      run: npm i jsdoc
+
+    - name: Install better-docs
+      run: npm i better-docs
+
+    - name: Configure file
+      run: touch jsdoc.conf.json
 
     - name: Generate JSDoc
-      run: jsdoc -c jsdoc.json
+      run: npm run docs
 
-    - name: Build
-      run: npm run build
+    
 
     
 

@@ -30,8 +30,9 @@ jobs:
     - name: Generate JSDoc
       run: npm run docs
 
-    - name: Move generated docs to docs folder
-      run: move docs docs  
+    - name: Move generated docs to root directory
+      run: Move-Item docs/* .
+
 
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v4

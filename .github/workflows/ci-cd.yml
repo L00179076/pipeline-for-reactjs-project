@@ -33,6 +33,12 @@ jobs:
     - name: Move generated docs to root directory
       run: Move-Item docs/* .
 
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Update documentation
+        branch: main
+
 
     
 

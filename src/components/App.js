@@ -1,3 +1,10 @@
+/**
+ * @module App
+ * @description This is the app file
+ * @author Riya
+ * @function App
+ * @description This is function which does something
+ */
 import React, { useState, useEffect } from "react";
 import { v4 as uuid } from "uuid";
 import "./App.css";
